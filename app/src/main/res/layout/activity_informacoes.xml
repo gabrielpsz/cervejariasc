@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_informacoes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.leon.floripapp.InformacoesActivity">
+
+    <CheckBox
+        android:text="Favorita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/favorito"
+
+        style="?android:attr/starStyle"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:text="Ponto Turístico:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Ponto Turístico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome" />
+
+    <TextView
+        android:text="Horário de Funcionamento:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Horário de Funcionamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horarioFuncionamento"
+        android:layout_below="@+id/favorito" />
+
+    <TextView
+        android:text="Descricao:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descricao"
+        android:layout_above="@+id/mapa" />
+
+    <TextView
+        android:text="Data de Funcionamento:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Data de Funcionamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataFuncionamento" />
+
+    <Button
+        android:text="Mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapa"
+        android:layout_marginBottom="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
